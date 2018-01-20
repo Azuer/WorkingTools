@@ -5,12 +5,12 @@
 	* [Java](https://www.java.com/zh_CN/download/mac_download.jsp)（1.8.0 及以上）
 	* Xcode（8.0 及以上版本）
 	* IDE（Eclipse, [Intellij](https://www.jetbrains.com/idea/download/#section=mac) 或其他 Java IDE） 
-	* [Appium - Desktop](smb://192.168.8.8/CrossShare/前台/Appium/Appium-1.2.0-beta.1.dmg)（1.1.0 及以上版本, 可选）
+	* [Appium - Desktop](https://github.com/appium/appium-desktop/releases/tag/v1.3.1)（1.1.0 及以上版本, 可选）
 	* iPhone（iPhone 6 及以上机型, 10.0 及以上系统 ）
 * 基础工作
 	* 运行```java -version```查看 java 版本是否满足最低要求, 自行升级
 	* 运行```xcode-select --install```安装 ```Xcode Command Line Tool```（已安装则跳过）
-	* 下载脚本 [bootstrap.sh](http://iosgitlab.com/autotest/Appium/tree/develop/Auto_iOS/script)（运行脚本需要升级 brew, 可根据脚本提示选择是否手动升级; ```bash bootstrap.sh -h```可获取脚本详细信息, 包括参数说明、所需安装依赖工具等其他注意事项)
+	* 下载脚本 [bootstrap.sh](https://github.com/Azuer/WorkingTools/blob/master/Scripts/bootstrap.sh)（运行脚本需要升级 brew, 可根据脚本提示选择是否手动升级; ```bash bootstrap.sh -h```可获取脚本详细信息, 包括参数说明、所需安装依赖工具等其他注意事项)
 * 注意事项
 	* 自动化环境分为两种版本（针对日常的的自动化需求只需构建 GUI 版本即可）
 		1. GUI（图形界面）版本, 集成了图形化的工具, 便于编写用例及调试（推荐版本）
