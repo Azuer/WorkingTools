@@ -1,4 +1,4 @@
-# JsonModelPaser
+# JsonModelParser
 
 * ####描述
 	* 将服务器返回的 json 中的 data 数据转换为 objective-c 的 ValueObject
@@ -18,7 +18,7 @@
 	* 服务器数据格式
 
 			{
-					"rtn_tip": "",
+				"rtn_tip": "",
 				"rtn_msg": "",
 				"rtn_ftype": "",
 				"rtn_ext": "操作成功",
